@@ -405,7 +405,7 @@ do
 
   -- Git Blame Plugin
   vim.pack.add { gh 'f-person/git-blame.nvim' }
-  require('git-blame').setup {}
+  require('gitblame').setup {}
 
   -- If a nerd font is available, load the icons module for pretty icons in various plugins.
   if vim.g.have_nerd_font then
